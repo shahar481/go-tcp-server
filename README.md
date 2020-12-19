@@ -1,6 +1,6 @@
 # Go tcp server
-Simple concurrent tcp server library written in golang
-
+Simple concurrent tcp server library written in golang. 
+Working example file in the example directory.
 
 ## Usage example
 
