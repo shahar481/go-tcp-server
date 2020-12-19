@@ -6,7 +6,7 @@ Simple concurrent tcp server library written in golang
 
 ```
 func handler(conn net.Conn) {
-    conn.Write("Hello world!")
+    conn.Write([]byte("Hey world!"))
     conn.Close()
 }
 
